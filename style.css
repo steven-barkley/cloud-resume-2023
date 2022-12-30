@@ -2,3 +2,37 @@
      margin: auto;
      max-width: 1200px;
  }
+
+ .floatleft {
+     float: left;
+     list-style-type: none;
+     font-style: italic;
+     font-weight: bold;
+ }
+
+ .floatright {
+     float: right;
+     list-style-type: none;
+     font-weight: bolder;
+ }
+
+ .box {
+     display: inline-flex;
+ }
+
+ .performanceMetrics {
+     display: inline-flex;
+
+
+ }
+
+ .performanceMetrics li {
+     list-style-type: none;
+ }
+
+ #workEX {
+     display: block;
+     /*     border: 2px dotted blue; */
+     width: 100%;
+     height: 50px;
+ }
